@@ -14,7 +14,7 @@ except :
 
 count = 0
 
-for line in fname:
+for line in fhand:
     if line.startswith('Subject:') :
         count = count + 1 
 
